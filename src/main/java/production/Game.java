@@ -23,10 +23,9 @@ public class Game {
 		
 	}
 	
-	public Game(String title, String developer){
+	public Game(String title, String genre){
 		this.title = title;
-		this.developer = developer;
-	}
+		this.genre = genre;
 }
 
 	public Long getId(){
@@ -47,4 +46,11 @@ public class Game {
 	
 	public String getProfile() {
 		return profile;
+	}
+	
+	@Override
+	public String toString() {
+		return String.format(
+				"Game[id=%d, title='%s', genre='%s']", 
+				id, title, genre);
 	}
