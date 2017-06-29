@@ -34,11 +34,11 @@ public class Application {
 				Log.info(game.toString());
 				Log.info("");
 				
-				Log.info("Game found with findByGenre('MMO'):");
-				Log.info("-----------------------------------");
-				for (Game mmo : repository.findByGenre("MMO")) {
-					Log.info(mmo.toString());
-				}
+//				Log.info("Game found with findByGenre('MMO'):");
+//				Log.info("-----------------------------------");
+//				for (Game mmo : repository.findByGenre("MMO")) {
+//					Log.info(mmo.toString());
+//				}
 				Log.info("");
 				
 			};
