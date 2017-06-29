@@ -54,3 +54,4 @@ public class Game {
 				"Game[id=%d, title='%s', genre='%s']", 
 				id, title, genre);
 	}
+}
